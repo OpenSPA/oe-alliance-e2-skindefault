@@ -128,6 +128,21 @@ dist_install_DATA =     ask.png \
     record.png \
     redx.png \
     rep.png \
+    repepgclock_add.png \
+    repepgclock.png \
+    repepgclock_post.png \
+    repepgclock_pre.png \
+    repepgclock_prepost.png \
+    repzapclock.png \
+    repzapclock_add.png \
+    repzapclock_post.png \
+    repzapclock_pre.png \
+    repzapclock_prepost.png \
+    repzaprecclock.png \
+    repzaprecclock_add.png \
+    repzaprecclock_post.png \
+    repzaprecclock_pre.png \
+    repzaprecclock_prepost.png \
     scan-c.png \
     scan-s.png \
     scan-t.png \
@@ -155,4 +170,14 @@ dist_install_DATA =     ask.png \
     verticalline.png \
     verticalline-plugins.png \
     YPbPr.png \
-    za.png
+    za.png \
+    zapclock.png \
+    zapclock_add.png \
+    zapclock_post.png \
+    zapclock_pre.png \
+    zapclock_prepost.png \
+    zaprecclock.png \
+    zaprecclock_add.png \
+    zaprecclock_post.png \
+    zaprecclock_pre.png \
+    zaprecclock_prepost.png

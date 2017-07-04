@@ -79,6 +79,11 @@ dist_install_DATA =     ask.png \
     input_rcnew.png \
     input_rcold-configured.png \
     input_rcold.png \
+    ipkgcam.png \
+    ipkgextensions.png \
+    ipkgpdrivers.png \
+    ipkgskins.png \
+    ipkgsystemplugins.png \
     lcd_DVI.png \
     lcd_HDMI.png \
     lcd_Scart.png \

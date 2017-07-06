@@ -2951,9 +2951,9 @@ self.autoResize()
 		<widget name="status" position="0,0" size="320,35" backgroundColor="transparent" transparent="1" font="Regular;26" borderColor="black" borderWidth="2" valign="center" halign="center" zPosition="100"/>
 	</screen>
 	<!-- Streaming Clients Info screen -->
-	<screen name="StreamingClientsInfo" position="center,center" size="540,490" flags="wfBorder" title="Streaming clients info">
-		<widget name="menu" font="Regular;20" position="10,60" size="530,320" zPosition="1" />
-		<widget name="info" position="10,60" size="530,22" font="Regular;20" halign="center" transparent="1" zPosition="2" />
+	<screen name="StreamingClientsInfo" position="center,center" size="540,490">
+		<widget name="menu" font="Regular;20" position="10,60" size="530,320" zPosition="1"/>
+		<widget name="info" position="10,60" size="530,22" font="Regular;20" halign="center" transparent="1" zPosition="2"/>
 		<ePixmap pixmap="skin_default/buttons/red.png" position="0,0" size="140,40" alphatest="on"/>
 		<ePixmap pixmap="skin_default/buttons/green.png" position="135,0" size="140,40" alphatest="on"/>
 		<ePixmap pixmap="skin_default/buttons/yellow.png" position="270,0" size="140,40" alphatest="on"/>
@@ -2962,11 +2962,12 @@ self.autoResize()
 		<widget name="key_green" position="135,0" zPosition="1" size="135,40" font="Regular;20" halign="center" valign="center" backgroundColor="#1f771f" transparent="1"/>
 		<widget name="key_yellow" position="270,0" zPosition="1" size="135,40" font="Regular;20" halign="center" valign="center" backgroundColor="#a08500" transparent="1"/>
 	</screen>
-	<screen name="RestorePlugins" position="center,center" size="600,570" title="Restore Plugins">
-		<ePixmap pixmap="skin_default/buttons/red.png" position="0,525" size="140,40" alphatest="on" />
-		<ePixmap pixmap="skin_default/buttons/green.png" position="140,525" size="140,40" alphatest="on" />
-		<widget name="key_red" position="0,525" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="#9f1313" transparent="1" />
-		<widget name="key_green" position="140,525" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center"backgroundColor="#1f771f" transparent="1" />
-		<widget name="menu" position="9,41" size="645,475" scrollbarMode="showOnDemand" />
+	<!-- Restore Plugins -->
+	<screen name="RestorePlugins" position="center,center" size="600,570">
+		<ePixmap pixmap="skin_default/buttons/red.png" position="0,525" size="140,40" alphatest="on"/>
+		<ePixmap pixmap="skin_default/buttons/green.png" position="140,525" size="140,40" alphatest="on"/>
+		<widget name="key_red" position="0,525" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="#9f1313" transparent="1"/>
+		<widget name="key_green" position="140,525" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="#1f771f" transparent="1"/>
+		<widget name="menu" position="9,41" size="645,475" scrollbarMode="showOnDemand"/>
 	</screen>
 </skin>

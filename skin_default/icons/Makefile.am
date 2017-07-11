@@ -133,8 +133,6 @@ dist_install_DATA =     ask.png \
     record.png \
     redx.png \
     rep.png \
-    repeat_off.png \
-    repeat_on.png \
     repepgclock_add.png \
     repepgclock.png \
     repepgclock_post.png \
@@ -155,7 +153,6 @@ dist_install_DATA =     ask.png \
     scan-t.png \
     Scart-YPbPr.png \
     Scart.png \
-    selectioncross.png \
     shuffle.png \
     slow_large.png \
     slow.png \

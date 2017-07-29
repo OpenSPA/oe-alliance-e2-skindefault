@@ -1794,7 +1794,20 @@ self.autoResize()
 		<widget name="number" position="0,0" size="434,50" backgroundColor="transparent" transparent="1" font="Regular;48" borderColor="black" borderWidth="2" valign="center" halign="center"/>
 		<widget name="servicename" position="0,40" size="434,60" backgroundColor="transparent" transparent="1" font="Regular;30" borderColor="black" borderWidth="2" valign="center" halign="center"/>
 	</screen>
-	<screen name="HistoryZapSelector" position="center,center" size="620,300">
+	<screen name="NumberZapWithName" position="33,25" size="286,152" title="QuickZap" flags="wfNoBorder" backgroundColor="#00000000">
+    <widget name="servicename" position="4,99" size="274,46" font="Regular; 40" halign="center" backgroundColor="#00000000" transparent="1" foregroundColor="#00ffffff" />
+    <widget name="number" position="4,20" size="274,60" font="Regular; 75" halign="center" backgroundColor="#00000000" transparent="1" valign="center" foregroundColor="#00ffffff" zPosition="-1" />
+    <widget name="servicenumber" position="4,20" size="274,60" font="Regular; 75" halign="right" backgroundColor="#00000000" transparent="1" valign="center" foregroundColor="#00ffffff" zPosition="-1" />
+  </screen>
+  <screen name="NumberZapPicon" position="33,25" size="286,152" title="QuickZap" flags="wfNoBorder" backgroundColor="#00000000">
+    <widget name="servicename" position="4,99" size="274,46" font="Regular; 40" halign="right" backgroundColor="#00000000" transparent="1" foregroundColor="#00ffffff" />
+    <widget name="number" position="6,20" size="120,60" font="Regular; 75" halign="center" backgroundColor="#00000000" transparent="1" valign="center" foregroundColor="#00ffffff" zPosition="-1" />
+    <widget name="servicenumber" position="6,20" size="120,60" font="Regular; 75" halign="center" backgroundColor="#00000000" transparent="1" valign="center" foregroundColor="#00ffffff" zPosition="-1" />
+    <widget alphatest="blend" position="132,8" render="Picon" size="146,88" source="Service" transparent="0" zPosition="5">
+	<convert type="ServiceName">Reference</convert>
+    </widget>
+  </screen>
+  <screen name="HistoryZapSelector" position="center,center" size="620,300">
 		<widget source="menu" render="Listbox" position="0,0" size="620,300" scrollbarMode="showOnDemand">
 			<convert type="TemplatedMultiContent">
 				{"template": [

@@ -187,9 +187,6 @@
 		<ePixmap pixmap="buttons/blue.png" position="420,0" size="140,40" alphatest="on"/>
 		<widget source="key_blue" render="Label" position="420,0" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="#141484" transparent="1"/>
 	</screen>
-
-
-
 <!-- System Menu's -->
 	<screen name="Menu" position="center,center" size="560,456">
 		<widget source="menu" render="Listbox" position="0,0" size="560,456" foregroundColor="window-fg" backgroundColor="window-bg" transparent="0" enableWrapAround="1" scrollbarMode="showOnDemand">
@@ -252,7 +249,6 @@
 		<widget name="config" position="0,90" size="560,330" transparent="0" enableWrapAround="1" scrollbarMode="showOnDemand"/>
 		<widget name="description" position="0,e-180" size="560,75" font="Regular;18" halign="center" valign="top" transparent="0" zPosition="1"/>
 	</screen>
-
 <!-- InfoBar's -->
 	<screen name="InfoBar" flags="wfNoBorder" position="center,562" size="974,148" title="InfoBar" backgroundColor="transparent">
 		<ePixmap position="0,0" size="974,148" pixmap="infobar/1stinfobar.png" alphatest="on" zPosition="-1"/>
@@ -1005,7 +1001,6 @@
 		</widget>
 		<ePixmap pixmap="buttons/key_menu.png" position="20,686" size="35,25" alphatest="blend" transparent="1" zPosition="1"/>
 	</screen>
-
 	<!-- Timer Screens -->
 	<screen name="CronTimers" position="center,center" size="590,400" title="Cron Manager">
 		<widget name="lab1" position="10,0" size="100,24" font="Regular;20" valign="center" transparent="0"/>
@@ -1068,7 +1063,6 @@
 	<screen name="TimerSelection" position="center,center" size="560,550">
 		<widget name="timerlist" foregroundColor="window-fg" backgroundColor="window-bg" transparent="0" position="0,0" size="560,533" scrollbarMode="showOnDemand"/>
 	</screen>
-
 	<!-- Infomation Screens -->
 	<screen name="AboutOE" position="center,center" size="560,450">
 		<widget source="lab1" render="Label" position="30,0" size="458,25" font="Boldit;24" transparent="1"/>
@@ -1246,7 +1240,6 @@
 		<widget name="DNSInfo_Check" pixmaps="icons/lock_on.png,icons/lock_error.png" position="400,265" size="38,31" alphatest="on" zPosition="2"/>
 		<widget name="EditSettingsButton" pixmaps="buttons/blue.png,buttons/blue_pressed.png" position="425,310" zPosition="1" size="140,40" transparent="1" alphatest="on"/>
 		<widget name="EditSettings_Text" position="440,320" size="110,21" zPosition="2" font="Regular;19" transparent="1" foregroundColors="#000000,#8c8c93,#1cff1c"/>
-
 		<widget name="InfoTextBorder" pixmap="border_info.png" position="10,50" zPosition="20" size="550,300" alphatest="on"/>
 		<widget name="InfoText" position="15,55" size="541,290" zPosition="25" font="Regular;21"/>
 	</screen>
@@ -1795,19 +1788,19 @@ self.autoResize()
 		<widget name="servicename" position="0,40" size="434,60" backgroundColor="transparent" transparent="1" font="Regular;30" borderColor="black" borderWidth="2" valign="center" halign="center"/>
 	</screen>
 	<screen name="NumberZapWithName" position="33,25" size="286,152" title="QuickZap" flags="wfNoBorder" backgroundColor="#00000000">
-    <widget name="servicename" position="4,99" size="274,46" font="Regular; 40" halign="center" backgroundColor="#00000000" transparent="1" foregroundColor="#00ffffff" />
-    <widget name="number" position="4,20" size="274,60" font="Regular; 75" halign="center" backgroundColor="#00000000" transparent="1" valign="center" foregroundColor="#00ffffff" zPosition="-1" />
-    <widget name="servicenumber" position="4,20" size="274,60" font="Regular; 75" halign="right" backgroundColor="#00000000" transparent="1" valign="center" foregroundColor="#00ffffff" zPosition="-1" />
-  </screen>
-  <screen name="NumberZapPicon" position="33,25" size="286,152" title="QuickZap" flags="wfNoBorder" backgroundColor="#00000000">
-    <widget name="servicename" position="4,99" size="274,46" font="Regular; 40" halign="right" backgroundColor="#00000000" transparent="1" foregroundColor="#00ffffff" />
-    <widget name="number" position="6,20" size="120,60" font="Regular; 75" halign="center" backgroundColor="#00000000" transparent="1" valign="center" foregroundColor="#00ffffff" zPosition="-1" />
-    <widget name="servicenumber" position="6,20" size="120,60" font="Regular; 75" halign="center" backgroundColor="#00000000" transparent="1" valign="center" foregroundColor="#00ffffff" zPosition="-1" />
-    <widget alphatest="blend" position="132,8" render="Picon" size="146,88" source="Service" transparent="0" zPosition="5">
-	<convert type="ServiceName">Reference</convert>
-    </widget>
-  </screen>
-  <screen name="HistoryZapSelector" position="center,center" size="620,300">
+		<widget name="servicename" position="4,99" size="274,46" font="Regular; 40" halign="center" backgroundColor="#00000000" transparent="1" foregroundColor="#00ffffff" />
+		<widget name="number" position="4,20" size="274,60" font="Regular; 75" halign="center" backgroundColor="#00000000" transparent="1" valign="center" foregroundColor="#00ffffff" zPosition="-1" />
+		<widget name="servicenumber" position="4,20" size="274,60" font="Regular; 75" halign="right" backgroundColor="#00000000" transparent="1" valign="center" foregroundColor="#00ffffff" zPosition="-1" />
+	</screen>
+	<screen name="NumberZapPicon" position="33,25" size="286,152" title="QuickZap" flags="wfNoBorder" backgroundColor="#00000000">
+		<widget name="servicename" position="4,99" size="274,46" font="Regular; 40" halign="right" backgroundColor="#00000000" transparent="1" foregroundColor="#00ffffff" />
+		<widget name="number" position="6,20" size="120,60" font="Regular; 75" halign="center" backgroundColor="#00000000" transparent="1" valign="center" foregroundColor="#00ffffff" zPosition="-1" />
+		<widget name="servicenumber" position="6,20" size="120,60" font="Regular; 75" halign="center" backgroundColor="#00000000" transparent="1" valign="center" foregroundColor="#00ffffff" zPosition="-1" />
+		<widget alphatest="blend" position="132,8" render="Picon" size="146,88" source="Service" transparent="0" zPosition="5">
+			<convert type="ServiceName">Reference</convert>
+		</widget>
+	</screen>
+	<screen name="HistoryZapSelector" position="center,center" size="620,300">
 		<widget source="menu" render="Listbox" position="0,0" size="620,300" scrollbarMode="showOnDemand">
 			<convert type="TemplatedMultiContent">
 				{"template": [

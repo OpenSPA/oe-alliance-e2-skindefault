@@ -1794,8 +1794,8 @@ self.autoResize()
 	</screen>
 	<screen name="NumberZapPicon" position="33,25" size="286,152" title="QuickZap" flags="wfNoBorder" backgroundColor="#00000000">
 		<widget name="servicename" position="4,99" size="274,46" font="Regular; 40" halign="right" backgroundColor="#00000000" transparent="1" foregroundColor="#00ffffff" />
-		<widget name="number" position="6,20" size="120,60" font="Regular; 75" halign="center" backgroundColor="#00000000" transparent="1" valign="center" foregroundColor="#00ffffff" zPosition="-1" />
-		<widget name="servicenumber" position="6,20" size="120,60" font="Regular; 75" halign="center" backgroundColor="#00000000" transparent="1" valign="center" foregroundColor="#00ffffff" zPosition="-1" />
+		<widget name="number" position="6,20" size="140,60" font="Regular; 70" halign="center" backgroundColor="#00000000" transparent="1" valign="center" foregroundColor="#00ffffff" zPosition="-1" />
+		<widget name="servicenumber" position="6,20" size="140,60" font="Regular; 70" halign="center" backgroundColor="#00000000" transparent="1" valign="center" foregroundColor="#00ffffff" zPosition="-1" />
 		<widget alphatest="blend" position="132,8" render="Picon" size="146,88" source="Service" transparent="0" zPosition="5">
 			<convert type="ServiceName">Reference</convert>
 		</widget>

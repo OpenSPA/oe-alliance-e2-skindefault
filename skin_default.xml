@@ -2765,6 +2765,13 @@ self.autoResize()
 		<widget name="labstop" position="180,160" size="100,30" font="Regular;20" valign="center" halign="center" backgroundColor="red"/>
 		<widget name="labrun" position="180,160" size="100,30" zPosition="1" font="Regular;20" valign="center" halign="center" backgroundColor="green"/>
 	</screen>
+	<screen name="NetworkOpenvpnSetup" position="center,center" size="660,410">
+		<panel name="MenuRed3Panel" />
+		<panel name="MenuGreen3Panel" />
+		<panel name="MenuYellow3Panel" />
+		<panel name="MenuBlue3Panel" />
+		<widget name="data" position="15,57" size="634,343" font="Regular;20" valign="center" transparent="0" />
+	</screen>
 	<screen name="NetworkInadyn" position="center,center" size="590,410">
 		<widget name="autostart" position="10,0" size="100,24" font="Regular;20" valign="center" transparent="0"/>
 		<widget name="labdisabled" position="110,0" size="100,24" font="Regular;20" valign="center" halign="center" backgroundColor="red" zPosition="1"/>

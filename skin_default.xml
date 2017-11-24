@@ -1014,7 +1014,7 @@
 		</widget>
 		<panel name="MenuRed1Panel"/>
 		<panel name="MenuGreen1Panel"/>
-		<panel name="MenuYellow1Panel"/>
+		<panel name="MenuYellow2Panel"/>
 		<panel name="MenuBlue1Panel"/>
 	</screen>
 	<screen name="TimerEdit" position="70,130" size="590,335">

@@ -1,4 +1,4 @@
-SUBDIRS = LCDIcons buttons countries epg extensions icons infobar piconbg screens sysinfo menu
+SUBDIRS = LCDIcons buttons countries epg extensions icons infobar piconbg screens sysinfo menu skin_default
 
 installdir = $(datadir)/enigma2/skin_default
 dist_install_DATA = arrowdown.png \

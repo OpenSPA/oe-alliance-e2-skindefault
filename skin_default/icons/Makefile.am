@@ -31,6 +31,8 @@ dist_install_DATA =     ask.png \
     forward.png \
     fza.png \
     HDMI.png \
+    ico_3d.png \
+    ico_4k-uhd.png \
     ico_dvb-c.png \
     ico_dvb-s.png \
     ico_dvb-t.png \
@@ -57,6 +59,7 @@ dist_install_DATA =     ask.png \
     icon_event.png \
     icon_format_off.png \
     icon_format.png \
+    ico_hd.png \
     icon_hd_off.png \
     icon_hd_on.png \
     icon_rec_off.png \
@@ -70,6 +73,7 @@ dist_install_DATA =     ask.png \
     icon_update_off.png \
     input_error.png \
     input_info.png \
+    ico_iptv.png \
     input_keyboard-configured.png \
     input_keyboard.png \
     input_mouse-configured.png \

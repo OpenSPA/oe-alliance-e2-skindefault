@@ -52,7 +52,6 @@ dist_install_DATA = blue_pressed.png \
     red_HD.png \
     vkey_all.png \
     vkey_backspace.png \
-    vkey_blue.png \
     vkey_bg.png \
     vkey_bg_l.png \
     vkey_bg_m.png \

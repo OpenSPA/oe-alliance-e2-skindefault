@@ -3062,6 +3062,8 @@ self.autoResize()
 					"itemHeight": 30
 				}
 			</convert>
+		</widget>
+	</screen>
 	<!-- EPGvertical -->
 	<screen flags="wfNoBorder" name="EPGvertical" position="0,0" size="1280,720" title="Vertical Program Guide">
 		<eLabel text="Vertical Program Guide" position="15,5" size="300,40" font="Regular;25" halign="left" valign="center"/>

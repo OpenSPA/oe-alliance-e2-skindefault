@@ -25,4 +25,5 @@ skin_default/skin_default/Makefile
 skin_default/sysinfo/Makefile
 skin_fallback_1080/Makefile
 skin_fallback_1080/buttons/Makefile
+skin_fallback_1080/icons/Makefile
 ])

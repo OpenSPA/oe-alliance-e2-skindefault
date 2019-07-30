@@ -80,6 +80,7 @@ dist_install_DATA =     ask.png \
     ico_iptv.png \
     input_keyboard-configured.png \
     input_keyboard.png \
+    input_message.png \
     input_mouse-configured.png \
     input_mouse.png \
     input_question.png \
@@ -87,6 +88,7 @@ dist_install_DATA =     ask.png \
     input_rcnew.png \
     input_rcold-configured.png \
     input_rcold.png \
+    input_warning.png \
     ipkgcam.png \
     ipkgextensions.png \
     ipkgpdrivers.png \

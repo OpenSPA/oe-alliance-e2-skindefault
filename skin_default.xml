@@ -1849,11 +1849,11 @@ self.autoResize()
 		<widget name="number" position="4,20" size="274,60" font="Regular; 75" halign="center" backgroundColor="#00000000" transparent="1" valign="center" foregroundColor="#00ffffff" zPosition="-1" />
 		<widget name="servicenumber" position="4,20" size="274,60" font="Regular; 75" halign="right" backgroundColor="#00000000" transparent="1" valign="center" foregroundColor="#00ffffff" zPosition="-1" />
 	</screen>
-	<screen name="NumberZapPicon" position="33,25" size="336,152" title="QuickZap" flags="wfNoBorder" backgroundColor="#00000000">
-		<widget name="servicename" position="4,99" size="325,46" font="Regular; 40" halign="right" backgroundColor="#00000000" transparent="1" foregroundColor="#00ffffff" />
-		<widget name="number" position="6,20" size="190,70" font="Regular; 50" halign="center" backgroundColor="#00000000" transparent="1" valign="center" foregroundColor="#00ffffff" zPosition="-1" />
-		<widget name="servicenumber" position="6,20" size="190,70" font="Regular; 50" halign="center" backgroundColor="#00000000" transparent="1" valign="center" foregroundColor="#00ffffff" zPosition="-1" />
-		<widget alphatest="blend" position="182,8" render="Picon" size="146,88" source="Service" transparent="0" zPosition="5">
+	<screen name="NumberZapPicon" title="Channel" position="150,67" size="651,300" backgroundColor="transparent" flags="wfNoBorder">
+		<widget name="channel" position="0,0" size="180,90" backgroundColor="transparent" transparent="1" font="Regular;39" borderColor="black" borderWidth="2" valign="center" halign="left"/>
+		<widget name="number" position="180,0" size="150,90" backgroundColor="transparent" transparent="1" font="Regular;39" borderColor="black" borderWidth="2" valign="center" halign="left"/>
+		<widget name="servicename" position="0,67" size="651,90" backgroundColor="transparent" transparent="1" font="Regular;33" borderColor="black" borderWidth="2" valign="center" halign="left"/>
+		<widget source="Service" render="Picon" position="0,160" size="220,132" alphatest="blend" backgroundColor="background" transparent="1">
 			<convert type="ServiceName">Reference</convert>
 		</widget>
 	</screen>

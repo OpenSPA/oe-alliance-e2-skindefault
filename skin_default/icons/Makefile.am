@@ -12,6 +12,7 @@ dist_install_DATA =     ask.png \
     DVI.png \
     epgclock_add.png \
     epgclock_autotimer.png \
+    epgclock_icetv.png \
     epgclock_post.png \
     epgclock_pre.png \
     epgclock_prepost.png \
@@ -176,6 +177,7 @@ dist_install_DATA =     ask.png \
     timer_autotimer.png \
     timer_done.png \
     timer_failed.png \
+    timer_icetv.png \
     timer_off.png \
     timer_prep.png \
     timer_rec.png \
